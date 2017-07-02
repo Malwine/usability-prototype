@@ -27,7 +27,7 @@ body {
   width: 95%;
   height: 25px;
   border-radius: 5px;
-  border: solid 2px;
+  border: solid gray 1px;
   padding: 5px;
 }
 
@@ -95,13 +95,13 @@ body {
   height: 50px;
   margin-top: -1px;
   text-align: center;
-  border-bottom: solid 2px;
+  border-bottom: solid gray 1px;
   display: flex;
   flex-direction: row;
 }
 
 .top #new {
-  border-right: solid 2px;
+  border-right: solid gray 1px;
   height: 50px;
   font-size: 37px;
   flex: 1 0 0;
@@ -110,7 +110,7 @@ body {
 }
 
 .top #headline {
-  border-right: solid 2px;
+  border-right: solid gray 1px;
   height: 50px;
   flex: 2 0 0;
 }
@@ -129,7 +129,7 @@ body {
   height: 50px;
   margin-top: 408px;
   text-align: center;
-  border-bottom: solid 2px;
+  border-top: solid gray 1px;
   display: flex;
   flex-direction: row;
 }
@@ -184,6 +184,43 @@ body {
 .top #back {
   text-decoration: none;
   width: 80px;
-  border-right: solid 2px;
+  border-right: solid gray 1px;
   color: black;
+}
+
+/* Account CSS */
+
+.account #user-data {
+  text-align: center;
+}
+
+.account #avatar {
+  margin-top: 12px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.account #username {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.account .button {
+  width: 91%;
+  border: none;
+  color: white;
+  background-color: #9C27B0;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.account .button:last-child {
+  margin-bottom: 60px;
 }
