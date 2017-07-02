@@ -66,7 +66,7 @@ body {
 }
 
 .screen #content .my-groups .box {
-  background-color: red;
+  background-color: orange;
   width: 100px;
   height: 100px;
   margin-right: 10px;
@@ -82,7 +82,7 @@ body {
 }
 
 .screen #content .all-groups .box {
-  background-color: red;
+  background-color: orange;
   width: 100px;
   height: 100px;
   margin-right: 10px;
@@ -223,4 +223,76 @@ body {
 
 .account .button:last-child {
   margin-bottom: 60px;
+}
+
+/* Group 1 CSS */
+.group1 #groupname {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.group1 #subject {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.group1 div p {
+  display: inline;
+  font-size: 10px
+}
+
+.group1 .info {
+  margin-bottom: 10px;
+}
+
+.group1 .time p {
+  margin-left: 10px;
+}
+
+.group1 .location img {
+  margin-left: 4px;
+}
+
+.group1 .location p {
+  margin-left: 18px;
+}
+
+.group1 .information p {
+  margin-left: 12px;
+}
+
+.group1 .icon {
+  height: 30px;
+  vertical-align: middle;
+}
+
+.group1 .members {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.group1 .member {
+  margin-right: 10px;
+}
+
+.group1 .members .member img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.group1 .button {
+  width: 91%;
+  border: none;
+  color: white;
+  background-color: #9C27B0;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
 }
