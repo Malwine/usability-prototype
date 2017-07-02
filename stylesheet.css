@@ -5,13 +5,17 @@
   overflow:auto;
 }
 
-.test {
+.screen {
   background-color: red;
   margin-left: 52px;
   margin-top: 108px;
   width: 291px;
   height: 457px;
   overflow: scroll;
+}
+
+.screen #content {
+  padding-top: 33px;
 }
 
 .top {
