@@ -105,6 +105,8 @@ body {
   height: 50px;
   font-size: 37px;
   flex: 1 0 0;
+  text-decoration: none;
+  color: black;
 }
 
 .top #headline {
@@ -116,6 +118,8 @@ body {
 .top #search {
   height: 50px;
   flex: 1 0 0;
+  text-decoration: none;
+  color: black;
 }
 
 .bottom {
@@ -134,7 +138,20 @@ body {
   width:100px;
   border-right: solid 2px;
   height: 50px;
+  text-decoration: none;
+  color: black;
 }
+
+#left .icon {
+  width: 30px;
+  padding-top: 2px;
+}
+
+#left div {
+  font-size: 10px;
+  margin-top: -5px;
+}
+
 
 #center {
   margin:0 auto;
@@ -147,4 +164,12 @@ body {
   float:right;
   width:100px;
   height: 50px;
+}
+
+/* New Group CSS */
+.top #back {
+  text-decoration: none;
+  width: 80px;
+  border-right: solid 2px;
+  color: black;
 }
