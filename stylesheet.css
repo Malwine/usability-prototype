@@ -34,6 +34,7 @@ body {
 /* All Groups Page CSS */
 .main {
   background-image: url(./images/phone-with-white.png);
+  position: fixed;
   width: 1100px;
   height: 690px;
   overflow:auto;
@@ -55,16 +56,14 @@ body {
 }
 
 .screen #content .my-groups {
-  /*padding-bottom: 25px;
-  width: 350px;
-  height: 200px;
-  overflow-x:scroll;*/
-    width: 30em;
-    overflow-x: auto;
-    white-space: nowrap;
-    overflow-y: hidden;
+  overflow: scroll;
+  width: 270px;
+  height: 150px;
 }
 
+.screen #content .my-groups .inner {
+  width: 10000px;
+}
 
 .screen #content .my-groups .box {
   background-color: red;
@@ -94,7 +93,7 @@ body {
   width: 291px;
   background-color: white;
   height: 50px;
-  margin-top: -4px;
+  margin-top: -1px;
   text-align: center;
   border-bottom: solid 2px;
   display: flex;
