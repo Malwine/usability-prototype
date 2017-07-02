@@ -49,11 +49,46 @@ body {
 }
 
 .screen #content {
-  padding-top: 33px;
+  padding-top: 55px;
   padding-left: 10px;
   width: 95%;
 }
 
+.screen #content .my-groups {
+  /*padding-bottom: 25px;
+  width: 350px;
+  height: 200px;
+  overflow-x:scroll;*/
+    width: 30em;
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+
+
+.screen #content .my-groups .box {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float:left;
+}
+
+.screen #content .all-groups {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.screen #content .all-groups .box {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
 .top {
   position: fixed;
   width: 291px;
