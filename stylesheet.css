@@ -1,6 +1,30 @@
 body {
   font-family: Avenir;
 }
+
+/* Index Page CSS */
+.index {
+  padding-left: 30px;
+}
+
+.index h1 {
+  padding-bottom: 30px;
+}
+
+.index .button {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #9C27B0;
+  font-size: 26px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  padding: 30px;
+  text-decoration: none;
+}
+
 /* Login Page CSS */
 .login {
   text-align: center;
