@@ -87,8 +87,9 @@ body {
 
 .screen #content .my-groups {
   overflow: scroll;
-  width: 270px;
+  width: 350px;
   height: 150px;
+  margin-top: 6px;
 }
 
 .screen #content .my-groups .inner {
@@ -96,19 +97,71 @@ body {
 }
 
 .screen #content .my-groups .box {
-  background-color: orange;
-  width: 100px;
+  width: 140px;
   height: 100px;
   margin-right: 10px;
   margin-bottom: 10px;
   float:left;
+  text-decoration: none;
 }
+
+.screen #content .my-groups .box:last-child {
+  padding-right: 100px;
+}
+.screen #content .my-groups .empty {
+  width:100px;
+  height:100px;
+}
+
+.screen #content .my-groups .box .upper {
+  background-color: orange;
+  height: 74px;
+  border-radius: 3px;
+}
+
+.screen #content .my-groups .box .group-title {
+  color: white;
+  padding-left: 5px;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.screen #content .my-groups .box .attending img {
+  width: 13px;
+  position: relative;
+  top: 33px;
+  left: 107px;
+}
+
+.screen #content .my-groups .box .attending .number-attendees {
+  position: relative;
+  top: 32px;
+  left: 106px;
+  color: white;
+  font-size: 16px;
+}
+
+.screen #content .my-groups .box .below {
+  font-size: 10px;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.screen #content .my-groups .box .time {
+  color: black;
+}
+
+.screen #content .my-groups .box .description {
+  color: #a5a5a5;
+}
+
 
 .screen #content .all-groups {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding-bottom: 50px;
+  margin-top: 28px;
 }
 
 .screen #content .all-groups .box {
