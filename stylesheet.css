@@ -209,6 +209,7 @@ body {
   border-top: solid gray 1px;
   display: flex;
   flex-direction: row;
+  z-index: 1000;
 }
 
 .bottom .text {
