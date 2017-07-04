@@ -13,24 +13,95 @@
             <p>Zurück</p>
           </a>
         </div>
-        <div class="bottom">
-          <a id="all-groups" href="all-groups.html">
-            <img class="icon" src="./images/group-icon.jpg" alt="">
-            <div class="text">Groups</div>
-          </a>
-          <a id="calendar" href="calendar.html">
-            <img class="icon" src="./images/calendar.png" alt="">
-            <div class="text">Kalender</div>
-          </a>
-          <a id="account" href="account.html">
-            <img class="icon" src="./images/person-icon.png" alt="">
-            <div class="text">Account</div>
-          </a>
-        </div>
-        <div id="content">
-          <strong>Neue Gruppe anlegen</strong>
-        </div>
-      </div>
-    </div>
+			<div class="bottom">
+				<a id="all-groups" href="all-groups.html"> <img class="icon"
+					src="./images/group-icon.jpg" alt="">
+					<div class="text">Groups</div>
+				</a> <a id="calendar" href="calendar.html"> <img class="icon"
+					src="./images/calendar.png" alt="">
+					<div class="text">Kalender</div>
+				</a> <a id="account" href="account.html"> <img class="icon"
+					src="./images/person-icon.png" alt="">
+					<div class="text">Account</div>
+				</a>
+			</div>
+			<div id="content" class="new-group">
+				<form action="/action_page.php">
+					<table>
+						<tr>
+							<td>Gruppenname:</td>
+							<td><input type="text" name="Gruppenname"
+								placeholder="Gruppenname"></td>
+						</tr>
+						<tr>
+							<td>Fach:</td>
+							<td><input type="text" name="Fach" placeholder="Fach"></td>
+						</tr>
+						<tr>
+							<td>Datum:</td>
+							<td><select id="startday">
+									<option value="01">01</option>
+									<option value="02">02</option>
+									<option value="03">03</option>
+									<option value="04">04</option>
+									<option value="05">05</option>
+									<option value="06">06</option>
+									<option value="07">...</option>
+							</select><select id="startmonth">
+									<option value="01">Jan</option>
+									<option value="02">Feb</option>
+									<option value="03">Mar</option>
+									<option value="04">Apr</option>
+									<option value="05">May</option>
+									<option value="06">Jun</option>
+									<option value="07">Jul</option>
+									<option value="08">Aug</option>
+									<option value="09">Sep</option>
+									<option value="10">Oct</option>
+									<option value="11">Nov</option>
+									<option value="12">Dec</option>
+							</select> <select id="startyear">
+									<option value="2017">2017</option>
+									<option value="2018">2018</option>
+							</select></td>
+						</tr>
+						<tr>
+							<td>Uhrzeit:</td>
+							<td><select id="starthrs"><option value="01">01</option>
+									<option value="02">02</option>
+									<option value="03">03</option>
+									<option value="04">04</option>
+									<option value="05">05</option>
+									<option value="06">06</option>
+									<option value="07">...</option></select> <select id="startmins">
+									<option value="01">01</option>
+									<option value="02">02</option>
+									<option value="03">03</option>
+									<option value="04">04</option>
+									<option value="05">05</option>
+									<option value="06">06</option>
+									<option value="07">...</option>
+							</select></td>
+						</tr>
+
+						<tr>
+							<td>Treffpunkt:</td>
+							<td><input id="place" type="text" name="Campus"
+								placeholder="Campus"><select><option value="WH">WH</option>
+									<option value="TRH">TRH</option></select><input id="place" type="text"
+								name="Room" placeholder="Raum"></td>
+						</tr>
+						<tr>
+							<td>Informationen:</td>
+							<td><input id="information" type="text" name="Information"
+								placeholder="Besonderheiten"></td>
+						</tr>
+					</table>
+					<div class="button"><input type="submit" value="Gruppe anlegen"></div>
+
+				</form>
+			</div>
+		</div>
+		</div>
   </body>
 </html>
