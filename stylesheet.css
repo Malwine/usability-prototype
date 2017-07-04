@@ -87,7 +87,6 @@ body {
 
 .screen #content .my-groups {
   overflow: scroll;
-  width: 350px;
   height: 150px;
   margin-top: 6px;
 }
@@ -105,9 +104,6 @@ body {
   text-decoration: none;
 }
 
-.screen #content .my-groups .box:last-child {
-  padding-right: 100px;
-}
 .screen #content .my-groups .empty {
   width:100px;
   height:100px;
