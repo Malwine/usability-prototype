@@ -83,6 +83,7 @@ body {
   padding-top: 55px;
   padding-left: 10px;
   width: 95%;
+  padding-bottom: 55px;
 }
 
 .screen #content .groups-headline {
@@ -98,11 +99,17 @@ body {
   margin-top: 6px;
 }
 
-.screen #content .my-groups .inner {
+.screen #content .all-groups {
+  overflow: scroll;
+  height: 140px;
+  margin-top: 6px;
+}
+
+.screen #content .inner {
   width: 10000px;
 }
 
-.screen #content .my-groups .box {
+.screen #content .box {
   width: 140px;
   height: 100px;
   margin-right: 10px;
@@ -111,32 +118,27 @@ body {
   text-decoration: none;
 }
 
-.screen #content .my-groups .empty {
-  width:100px;
-  height:100px;
-}
-
-.screen #content .my-groups .box .upper {
+.screen #content .box .upper {
   background-color: orange;
   height: 74px;
   border-radius: 3px;
 }
 
-.screen #content .my-groups .box .group-title {
+.screen #content .box .group-title {
   color: white;
   padding-left: 5px;
   font-size: 12px;
   padding-top: 5px;
 }
 
-.screen #content .my-groups .box .attending img {
+.screen #content .box .attending img {
   width: 13px;
   position: relative;
   top: 33px;
   left: 107px;
 }
 
-.screen #content .my-groups .box .attending .number-attendees {
+.screen #content .box .attending .number-attendees {
   position: relative;
   top: 32px;
   left: 106px;
@@ -144,36 +146,24 @@ body {
   font-size: 16px;
 }
 
-.screen #content .my-groups .box .below {
+.screen #content .box .below {
   font-size: 10px;
   margin-top: 4px;
   margin-left: 4px;
 }
 
-.screen #content .my-groups .box .time {
+.screen #content .box .time {
   color: black;
 }
 
-.screen #content .my-groups .box .description {
+.screen #content .box .description {
   color: #a5a5a5;
 }
 
-
-.screen #content .all-groups {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding-bottom: 50px;
-  margin-top: 6px;
+.screen #content .more-space {
+  margin-top: 15px;
 }
 
-.screen #content .all-groups .box {
-  background-color: orange;
-  width: 100px;
-  height: 100px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
 .top {
   position: fixed;
   width: 291px;
