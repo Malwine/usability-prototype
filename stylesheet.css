@@ -376,6 +376,11 @@ body {
   text-align: center;
 }
 
+.fa-plus, .fa-search{
+  font-size: x-large;
+  color: #F27935;
+}
+
 #overlay {
     position: fixed;
     display: none;
