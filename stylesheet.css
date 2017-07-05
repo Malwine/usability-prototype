@@ -232,6 +232,20 @@ body {
   padding-top: 4px;
 }
 
+.fa-plus, .fa-search{
+    font-size: x-large;
+    color: #F27935;
+}
+
+.fa-users {
+    font-size: 30px;
+    padding: 5px;
+}
+
+.fa-users.active, .text.active{
+    color: #9C27B0;
+}
+
 #calendar {
   border-right: solid gray 1px;
   height: 50px;
@@ -375,21 +389,6 @@ body {
   text-decoration: none;
   text-align: center;
 }
-
-.fa-plus, .fa-search{
-  font-size: x-large;
-  color: #F27935;
-}
-
-.fa-users {
-    font-size: 30px;
-    padding: 5px;
-}
-
-.fa-users.active, .text.active{
-    color: #9C27B0;
-}
-
 
 #overlay {
     position: fixed;
