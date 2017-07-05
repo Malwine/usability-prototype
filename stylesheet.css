@@ -88,9 +88,10 @@ body {
 
 .screen #content .groups-headline {
   font-size: 12px;
+  font-weight: 600;
   color: gray;
-  font-weight: 100;
   padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 .screen #content .my-groups {
