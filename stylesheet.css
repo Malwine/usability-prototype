@@ -239,9 +239,17 @@ body {
   padding-top: 4px;
 }
 
-.fa-plus, .fa-search, .fa-edit, .fa-arrow-left{
+.fa-plus,
+.fa-search,
+.fa-edit,
+.fa-arrow-left{
     font-size: x-large;
     color: #F27935;
+}
+
+.fa-envelope-o {
+    font-size: x-large;
+    color: #9C27B0;
 }
 
 .fa-users {
@@ -410,8 +418,17 @@ body {
   display: none;
 }
 
+.group1 .contact {
+  margin-right: 10px;
+  border: solid #9C27B0 2px;
+  border-radius: 4px;
+  padding: 8px 34px 8px 36px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .group1 .button {
-  width: 91%;
+  width: 80px;
   border: none;
   color: white;
   background-color: #9C27B0;
@@ -419,10 +436,11 @@ body {
   cursor: pointer;
   margin-bottom: 10px;
   display: inline-block;
-  padding: 10px;
-  border-radius: 4px;
+  padding: 12px 30px 12px 30px;
   text-decoration: none;
   text-align: center;
+  border-radius: 4px;
+
 }
 
 #overlay {
