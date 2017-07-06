@@ -95,14 +95,14 @@ body {
 }
 
 .screen #content .my-groups {
-  overflow: scroll;
-  height: 140px;
+  overflow-x: scroll;
+  height: 150px;
   margin-top: 6px;
 }
 
 .screen #content .all-groups {
-  overflow: scroll;
-  height: 140px;
+  overflow-x: scroll;
+  height: 150px;
   margin-top: 6px;
 }
 
