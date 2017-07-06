@@ -200,6 +200,20 @@ body {
   color: black;
 }
 
+.top #back {
+  height: 50px;
+  flex: 1 0 0;
+  text-decoration: none;
+  color: black;
+}
+
+.top #edit {
+  height: 50px;
+  flex: 1 0 0;
+  text-decoration: none;
+  color: black;
+}
+
 .bottom {
   position: fixed;
   width: 291px;
@@ -232,7 +246,7 @@ body {
   padding-top: 4px;
 }
 
-.fa-plus, .fa-search{
+.fa-plus, .fa-search, .fa-edit{
     font-size: x-large;
     color: #F27935;
 }
@@ -289,34 +303,31 @@ body {
 }
 
 .account #avatar {
-  margin-top: 12px;
-  width: 100px;
+  width: 70px;
   border-radius: 50%;
 }
 
-.account #username {
-  margin-top: 10px;
-  margin-bottom: 10px;
+.account #user-full-name {
   font-size: 20px;
+}
+
+.account #username {
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: #9C27B0;
 }
 
 .account .button {
   width: 91%;
-  border: none;
-  color: white;
-  background-color: #9C27B0;
+  color: #9C27B0;
+  border: solid #9C27B0 2px;
   font-size: 15px;
   cursor: pointer;
-  margin-bottom: 10px;
   display: inline-block;
   padding: 10px;
   border-radius: 4px;
   text-decoration: none;
   text-align: center;
-}
-
-.account .button:last-child {
-  margin-bottom: 60px;
 }
 
 /* Group 1 CSS */
