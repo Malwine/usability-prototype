@@ -239,7 +239,7 @@ body {
   padding-top: 4px;
 }
 
-.fa-plus, .fa-search, .fa-edit{
+.fa-plus, .fa-search, .fa-edit, .fa-arrow-left{
     font-size: x-large;
     color: #F27935;
 }
