@@ -200,13 +200,6 @@ body {
   color: black;
 }
 
-.top #back {
-  height: 50px;
-  flex: 1 0 0;
-  text-decoration: none;
-  color: black;
-}
-
 .top #edit {
   height: 50px;
   flex: 1 0 0;
@@ -297,6 +290,13 @@ body {
 }
 
 /* Account CSS */
+
+.account .top #back {
+  height: 50px;
+  flex: 1 0 0;
+  text-decoration: none;
+  color: black;
+}
 
 .account #user-data {
   text-align: center;
