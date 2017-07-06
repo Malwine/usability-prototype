@@ -1,37 +1,108 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Team Up</title>
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="stylesheet.css">
-  </head>
-  <body>
-    <div class="main">
-      <div class="screen">
-        <div class="top">
-          <a id="back" href="all-groups.html">
-            <p>Zurück</p>
-          </a>
-        </div>
-        <div class="bottom">
-          <a id="all-groups" href="all-groups.html">
-            <i class="fa fa-users"></i>
-            <div class="text">Lerngruppen</div>
-          </a>
-          <a id="calendar" href="calendar.html">
-            <img class="icon" src="./images/calendar.png" alt="">
-            <div class="text">Kalender</div>
-          </a>
-          <a id="account" href="account.html">
-            <img class="icon" src="./images/person-icon.png" alt="">
-            <div class="text">Account</div>
-          </a>
-        </div>
-        <div id="content">
-          <strong>Neue Gruppe anlegen</strong>
-        </div>
+<head>
+<meta charset="utf-8">
+<title>Team Up</title>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <div class="main">
+    <div class="screen">
+      <div class="top">
+        <a id="back" href="all-groups.html">
+          <p>Zurück</p>
+        </a>
+      </div>
+      <div class="bottom">
+        <a id="all-groups" href="all-groups.html"> <img class="icon"
+          src="./images/group-icon.jpg" alt="">
+          <div class="text">Groups</div>
+        </a> <a id="calendar" href="calendar.html"> <img class="icon"
+          src="./images/calendar.png" alt="">
+          <div class="text">Kalender</div>
+        </a> <a id="account" href="account.html"> <img class="icon"
+          src="./images/person-icon.png" alt="">
+          <div class="text">Account</div>
+        </a>
+      </div>
+      <div id="content" class="group1">
+        <form>
+          <table>
+            <tr>
+              <td>Gruppenname:</td>
+              <td><input type="text" name="Gruppenname"
+                placeholder="Gruppenname"></td>
+            </tr>
+            <tr>
+              <td>Fach:</td>
+              <td><input type="text" name="Fach" placeholder="Fach"></td>
+            </tr>
+            <tr>
+              <td>Datum:</td>
+              <td><select id="startday">
+                  <option value="01">01</option>
+                  <option value="02">02</option>
+                  <option value="03">03</option>
+                  <option value="04">04</option>
+                  <option value="05">05</option>
+                  <option value="06">06</option>
+                  <option value="07">...</option>
+              </select><select id="startmonth">
+                  <option value="01">Jan</option>
+                  <option value="02">Feb</option>
+                  <option value="03">Mär</option>
+                  <option value="04">Apr</option>
+                  <option value="05">Mai</option>
+                  <option value="06">Jun</option>
+                  <option value="07">Jul</option>
+                  <option value="08">Aug</option>
+                  <option value="09">Sep</option>
+                  <option value="10">Okt</option>
+                  <option value="11">Nov</option>
+                  <option value="12">Dez</option>
+              </select> <select id="startyear">
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td>Uhrzeit:</td>
+              <td><select id="starthrs"><option value="01">01</option>
+                  <option value="02">02</option>
+                  <option value="03">03</option>
+                  <option value="04">04</option>
+                  <option value="05">05</option>
+                  <option value="06">06</option>
+                  <option value="07">...</option></select> <select id="startmins">
+                  <option value="01">01</option>
+                  <option value="02">02</option>
+                  <option value="03">03</option>
+                  <option value="04">04</option>
+                  <option value="05">05</option>
+                  <option value="06">06</option>
+                  <option value="07">...</option>
+              </select></td>
+            </tr>
+
+            <tr>
+              <td>Treffpunkt:</td>
+              <td><input id="place" type="text" name="Campus"
+                placeholder="Campus"><input id="place" type="text"
+                name="Ort" placeholder="Ort"><input id="place"
+                type="text" name="Room" placeholder="Raum"></td>
+            </tr>
+            <tr>
+              <td>Informationen:</td>
+              <td><input id="information" type="text" name="Information"
+                placeholder="Besonderheiten"></td>
+            </tr>
+          </table>
+        </form>
+
+        <a class="button" href="new-group-view.html">Gruppe anlegen</a>
+
       </div>
     </div>
-  </body>
+  </div>
+</body>
 </html>
