@@ -330,6 +330,20 @@ body {
   text-align: center;
 }
 
+/* Construction CSS */
+
+.construction img {
+  width: 150px;
+  display: block;
+  margin-top: 20px;
+  margin-left: 72px;
+}
+
+.construction p {
+  text-align: center;
+}
+
+
 /* Group 1 CSS */
 .group1 #groupname {
   margin-top: 10px;
