@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Team Up</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
@@ -15,8 +16,8 @@
         </div>
         <div class="bottom">
           <a id="all-groups" href="all-groups.html">
-            <img class="icon" src="./images/group-icon.jpg" alt="">
-            <div class="text">Groups</div>
+            <i class="fa fa-users"></i>
+            <div class="text">Lerngruppen</div>
           </a>
           <a id="calendar" href="calendar.html">
             <img class="icon" src="./images/calendar.png" alt="">
@@ -28,7 +29,7 @@
           </a>
         </div>
         <div id="content" class="group1">
-          <div id="groupname">BWL für Einsteigerinnen</div>
+          <div id="groupname">ReWe für Alle</div>
           <div id="subject">Rechnungswesen</div>
 
           <div class="info time">
@@ -64,9 +65,20 @@
               </div>
             </div>
           </div>
-          <a class="button">Mitmachen</a> <br>
+          <a id="join" class="button">Mitmachen</a> <br>
+        </div>
+        <div id="overlay">
+          <div id="close">x</div>
+          <img id="image" src="./images/party-white.png" alt="">
+          <div id="join-text">
+            Juhu, du bist jetzt dabei!
+          </div>
         </div>
       </div>
     </div>
+
+    <script type="text/javascript" src="javascripts.js">
+
+    </script>
   </body>
 </html>
