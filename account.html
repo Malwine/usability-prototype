@@ -9,80 +9,95 @@
   <body>
     <div class="main">
       <div class="screen">
-        <div class="top">
-          <a id="back" href="all-groups.html">
-            <p>Zurück</p>
-          </a>
-        </div>
-        <div class="bottom">
-          <a id="all-groups" href="all-groups.html">
-            <i class="fa fa-users"></i>
-            <div class="text">Lerngruppen</div>
-          </a>
-          <a id="calendar" href="calendar.html">
-            <img class="icon" src="./images/calendar.png" alt="">
-            <div class="text">Kalender</div>
-          </a>
-          <a id="account" href="account.html">
-            <img class="icon" src="./images/person-icon.png" alt="">
-            <div class="text">Account</div>
-          </a>
-        </div>
-        <div id="content" class="account">
-          <div id="user-data">
-            <img id="avatar" src="./images/beyonce.png" alt="">
-            <div id="username">Jane Doe</div>
-          </div>
-          <strong class="groups-headline">Deine Lerngruppen</strong>
-          <div class="my-groups">
-            <div class="inner">
-
-              <a class="box" href="group1.html">
-                <div class="upper">
-                  <div class="group-title">BWL für Einsteigerinnen</div>
-                  <div class="attending">
-                    <img src="./images/person-icon-white.png">
-                    <span class="number-attendees">9</span>
-                  </div>
-                </div>
-                <div class="below">
-                  <strong class="time">Mon, 17.Juli, 18 Uhr. Jede Woche.</strong>
-                  <div class="description">Wir treffen uns auch in den Semesterferien.</div>
-                </div>
-              </a>
-
-              <a class="box" href="group1.html">
-                <div class="upper">
-                  <div class="group-title">Mathe Profis</div>
-                  <div class="attending">
-                    <img src="./images/person-icon-white.png">
-                    <span class="number-attendees">3</span>
-                  </div>
-                </div>
-                <div class="below">
-                  <strong class="time">Mit, 16.Juli, 15 Uhr.</strong>
-                  <div class="description">Wir treffen uns auch in den Semesterferien.</div>
-                </div>
-              </a>
-
-              <a class="box" href="group1.html">
-                <div class="upper">
-                  <div class="group-title">Usability Nerds</div>
-                  <div class="attending">
-                    <img src="./images/person-icon-white.png">
-                    <span class="number-attendees">5</span>
-                  </div>
-                </div>
-                <div class="below">
-                  <strong class="time">Die, 15.Juli, 15 Uhr.</strong>
-                  <div class="description">Wir treffen uns auch in den Semesterferien.</div>
-                </div>
-              </a>
-
+        <div class="account">
+          <div class="top">
+            <a id="back" href="all-groups.html">
+              <p>
+                <i class="fa fa-arrow-left"></i>
+              </p>
+            </a>
+            <div id="headline">
+              <p>Account</p>
             </div>
+            <a id="edit" href="edit-account.html">
+              <div>
+                <p>
+                  <i class="fa fa-edit"></i>
+                </p>
+              </div>
+            </a>
           </div>
-          <a class="button">Account bearbeiten</a> <br>
-          <a class="button" href="login.html">Abmelden</a>
+
+          <div class="bottom">
+            <a id="all-groups" href="all-groups.html">
+              <i class="fa fa-users"></i>
+              <div class="text">Lerngruppen</div>
+            </a>
+            <a id="calendar" href="calendar.html">
+              <img class="icon" src="./images/calendar.png" alt="">
+              <div class="text">Kalender</div>
+            </a>
+            <a id="account" href="account.html">
+              <img class="icon" src="./images/person-icon.png" alt="">
+              <div class="text">Account</div>
+            </a>
+          </div>
+          <div id="content">
+            <div id="user-data">
+              <img id="avatar" src="./images/beyonce.png" alt="">
+              <div id="user-full-name">Jana B.</div>
+              <div id="username">@janab</div>
+            </div>
+            <strong class="groups-headline">Deine Lerngruppen</strong>
+            <div class="my-groups">
+              <div class="inner">
+
+                <a class="box" href="group1.html">
+                  <div class="upper">
+                    <div class="group-title">BWL für Einsteigerinnen</div>
+                    <div class="attending">
+                      <img src="./images/person-icon-white.png">
+                      <span class="number-attendees">9</span>
+                    </div>
+                  </div>
+                  <div class="below">
+                    <strong class="time">Mon, 17.Juli, 18 Uhr. Jede Woche.</strong>
+                    <div class="description">Wir treffen uns auch in den Semesterferien.</div>
+                  </div>
+                </a>
+
+                <a class="box" href="group1.html">
+                  <div class="upper">
+                    <div class="group-title">Mathe Profis</div>
+                    <div class="attending">
+                      <img src="./images/person-icon-white.png">
+                      <span class="number-attendees">3</span>
+                    </div>
+                  </div>
+                  <div class="below">
+                    <strong class="time">Mit, 16.Juli, 15 Uhr.</strong>
+                    <div class="description">Wir treffen uns auch in den Semesterferien.</div>
+                  </div>
+                </a>
+
+                <a class="box" href="group1.html">
+                  <div class="upper">
+                    <div class="group-title">Usability Nerds</div>
+                    <div class="attending">
+                      <img src="./images/person-icon-white.png">
+                      <span class="number-attendees">5</span>
+                    </div>
+                  </div>
+                  <div class="below">
+                    <strong class="time">Die, 15.Juli, 15 Uhr.</strong>
+                    <div class="description">Wir treffen uns auch in den Semesterferien.</div>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+            <a class="button" href="login.html">Abmelden</a>
+          </div>
         </div>
       </div>
     </div>
