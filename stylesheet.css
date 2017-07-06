@@ -401,6 +401,15 @@ body {
   border-radius: 50%;
 }
 
+.group1 .member .name {
+  text-align: center;
+}
+
+.group1 #myself {
+  color: #9C27B0;
+  display: none;
+}
+
 .group1 .button {
   width: 91%;
   border: none;

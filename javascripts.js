@@ -7,6 +7,7 @@ function close() {
 function join() {
   if(button.innerHTML == "Mitmachen") {
     button.innerHTML = "Austreten";
+    document.getElementById("myself").style.display = "block";
     document.getElementById("overlay").style.display = "block";
 
     setTimeout(function(){
@@ -15,6 +16,7 @@ function join() {
 
   } else {
     button.innerHTML = "Mitmachen";
+    document.getElementById("myself").style.display = "none";
   }
 
 }
