@@ -57,7 +57,7 @@ body {
   width: 95%;
   height: 25px;
   border-radius: 5px;
-  border: solid gray 1px;
+  border: solid #666666 1px;
   padding: 5px;
 }
 
@@ -89,7 +89,7 @@ body {
 .screen #content .groups-headline {
   font-size: 12px;
   font-weight: 600;
-  color: gray;
+  color: #595959;
   padding-top: 5px;
   padding-bottom: 10px;
 }
@@ -168,11 +168,12 @@ body {
 .top {
   position: fixed;
   width: 291px;
+  color: #595959;
   background-color: #f2f2f2;
   height: 50px;
   margin-top: -1px;
   text-align: center;
-  border-bottom: solid #d9d9d9 1px;
+  box-shadow: 0 0px 4px #bfbfbf;
   display: flex;
   flex-direction: row;
   z-index: 1000;
@@ -208,11 +209,12 @@ body {
 .bottom {
   position: fixed;
   width: 291px;
+  color: #666666;
   background-color: #f2f2f2;
   height: 50px;
   margin-top: 408px;
   text-align: center;
-  border-top: solid #d9d9d9 1px;
+  box-shadow: 0 0px 4px #bfbfbf;
   display: flex;
   flex-direction: row;
   z-index: 1000;
@@ -227,7 +229,7 @@ body {
   height: 50px;
   flex: 1 0 0;
   text-decoration: none;
-  color: black;
+  color: #595959;
   cursor: pointer;
 }
 
@@ -242,6 +244,7 @@ body {
 .fa-chevron-left {
     font-size: x-large;
     color: #F27935;
+    text-shadow: 0px 0px 1px #cccccc;
 }
 
 .fa-envelope-o {
@@ -252,9 +255,9 @@ body {
 .fa-users,
 .fa-user,
 .fa-calendar {
-    color: black;
     font-size: 27px;
     padding: 5px;
+    text-shadow: 0px 0px 1px #cccccc;
 }
 
 .fa-users.active,
@@ -262,13 +265,14 @@ body {
 .fa-user.active,
 .text.active {
     color: #9C27B0;
+    text-shadow: 0px 0px 1px #cccccc;
 }
 
 #calendar {
   height: 50px;
   flex: 1 0 0;
   text-decoration: none;
-  color: black;
+  color: #595959;
   cursor: pointer;
 }
 
@@ -281,7 +285,7 @@ body {
   height: 50px;
   flex: 1 0 0;
   text-decoration: none;
-  color: black;
+  color: #595959;
   cursor: pointer;
 }
 
