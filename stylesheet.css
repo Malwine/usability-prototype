@@ -168,18 +168,17 @@ body {
 .top {
   position: fixed;
   width: 291px;
-  background-color: white;
+  background-color: #f2f2f2;
   height: 50px;
   margin-top: -1px;
   text-align: center;
-  border-bottom: solid gray 1px;
+  border-bottom: solid #d9d9d9 1px;
   display: flex;
   flex-direction: row;
   z-index: 1000;
 }
 
 .top #new {
-  border-right: solid gray 1px;
   height: 50px;
   font-size: 37px;
   flex: 1 0 0;
@@ -188,7 +187,6 @@ body {
 }
 
 .top #headline {
-  border-right: solid gray 1px;
   height: 50px;
   flex: 2 0 0;
 }
@@ -210,11 +208,11 @@ body {
 .bottom {
   position: fixed;
   width: 291px;
-  background-color: white;
+  background-color: #f2f2f2;
   height: 50px;
   margin-top: 408px;
   text-align: center;
-  border-top: solid gray 1px;
+  border-top: solid #d9d9d9 1px;
   display: flex;
   flex-direction: row;
   z-index: 1000;
@@ -226,7 +224,6 @@ body {
 }
 
 #all-groups {
-  border-right: solid gray 1px;
   height: 50px;
   flex: 1 0 0;
   text-decoration: none;
@@ -268,7 +265,6 @@ body {
 }
 
 #calendar {
-  border-right: solid gray 1px;
   height: 50px;
   flex: 1 0 0;
   text-decoration: none;
