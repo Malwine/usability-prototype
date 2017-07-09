@@ -99,6 +99,16 @@ body {
   margin-top: 6px;
 }
 
+.screen #content .jana-my-groups {
+	height: 60px;
+	background-color: #EDEDED;
+	margin: 3px;
+	border-radius:3px;
+	font-size:17px;
+		
+	
+}
+
 .screen #content .all-groups {
   overflow: scroll;
   height: 140px;
@@ -124,6 +134,13 @@ body {
   border-radius: 3px;
 }
 
+.screen #content .add-groups-box {
+	background-color:#EDEDED;
+	color:#9535BE;
+	margin: 10px;
+	text-align: center;
+	text-decoration:none;
+	}
 .screen #content .box .group-title {
   color: white;
   padding-left: 5px;
