@@ -92,14 +92,24 @@ body {
   color: #595959;
   padding-top: 5px;
   padding-bottom: 10px;
+
+}
+
+.screen #content #my-groups-headline{
+  color: #9C27B0;
+
 }
 
 .screen #content .my-groups {
   overflow-x: scroll;
   height: 150px;
   margin-top: 6px;
+
 }
 
+.screen #content .my-groups .box .upper{
+  background-color: #ffc14d;
+}
 .screen #content .all-groups {
   overflow-x: scroll;
   height: 150px;
@@ -377,13 +387,6 @@ body {
   font-size: 18px;
   font-weight: bold;
 }
-
-.group1 #groupname #admin {
-  color: purple;
-  padding-left: 76px;
-  font-size: 12px;
-}
-
 .group1 #subject {
   font-size: 12px;
   margin-bottom: 15px;
@@ -391,15 +394,15 @@ body {
 
 .group1 div p {
   display: inline;
-  font-size: 12px
+  font-size: 10px
 }
 
 .group1 .info {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .group1 .time p {
-  margin-left: 12px;
+  margin-left: 10px;
 }
 
 .group1 .location img {
@@ -415,7 +418,7 @@ body {
 }
 
 .group1 .icon {
-  height: 25px;
+  height: 30px;
   vertical-align: middle;
 }
 
@@ -444,10 +447,6 @@ body {
   display: none;
 }
 
-.group1 #myself-admin {
-  color: #9C27B0;
-}
-
 .group1 .contact {
   margin-right: 10px;
   border: solid #9C27B0 2px;
@@ -465,56 +464,60 @@ body {
   cursor: pointer;
   margin-bottom: 10px;
   display: inline-block;
+  padding: 12px 35px 12px 35px;
   text-decoration: none;
   text-align: center;
   border-radius: 4px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  width: 155px;
 }
 
 #overlay {
-  position: fixed;
-  display: none;
-  width: 230px;
-  height: 230px;
-  top: 200px;
-  left: 90px;
-  background-color: rgba(156, 39, 176, 0.81);
-  z-index: 2;
-  border-radius: 4px;
+    position: fixed;
+    display: none;
+    width: 200px;
+    height: 250px;
+    top: 200px;
+    left: 100px;
+    background-color: rgba(156, 39, 176, 0.81);
+    z-index: 2;
+    border-radius: 4px;
 }
 
 #overlay #close {
   color: white;
   font-size: 30px;
-  padding-left: 206px;
+  padding-left: 175px;
   width: 20px;
   height: 14px;
   cursor: pointer;
 }
 
 #overlay #image {
-  width: 80px;
-  padding-left: 85px;
-  padding-top: 10px;
-}
-
-#overlay #join-headline {
-  padding-top: 10px;
-  padding-left: 10px;
-  width: 90%;
-  font-size: 17px;
-  color: white;
-  text-align: center;
-  font-weight: bold;
+  width: 100px;
+  padding-left: 50px;
+  padding-top: 14px;
 }
 
 #overlay #join-text {
+  padding-top: 16px;
+  padding-left: 20px;
+  width: 80%;
+  font-size: 20px;
   color: white;
-  font-size: 14px;
-  padding-left: 10px;
-  padding-top: 10px;
   text-align: center;
-  width: 90%;
 }
+
+.screen #content .jana-my-groups {
+ 	height: 60px;
+ 	background-color: #EDEDED;
+ 	margin: 3px;
+ 	border-radius:3px;
+ 	font-size:17px;
+ }
+
+.screen #content .add-groups-box {
+	background-color:#EDEDED;
+	color:#9535BE;
+	margin: 10px;
+	text-align: center;
+	text-decoration:none;
+ 	}
