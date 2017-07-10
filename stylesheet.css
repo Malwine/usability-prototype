@@ -377,6 +377,13 @@ body {
   font-size: 18px;
   font-weight: bold;
 }
+
+.group1 #groupname #admin {
+  color: purple;
+  padding-left: 76px;
+  font-size: 12px;
+}
+
 .group1 #subject {
   font-size: 12px;
   margin-bottom: 15px;
@@ -435,6 +442,10 @@ body {
 .group1 #myself {
   color: #9C27B0;
   display: none;
+}
+
+.group1 #myself-admin {
+  color: #9C27B0;
 }
 
 .group1 .contact {
