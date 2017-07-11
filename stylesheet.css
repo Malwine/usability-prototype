@@ -3,6 +3,10 @@ body {
 }
 
 /* Index Page CSS */
+.index {
+  text-align: center;
+}
+
 .index .szenarios {
   display: flex;
   text-align: center;
