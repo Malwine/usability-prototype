@@ -92,14 +92,12 @@ body {
   color: #595959;
   padding-top: 5px;
   padding-bottom: 10px;
-
 }
 
 .screen #content .my-groups {
   overflow-x: scroll;
   height: 150px;
   margin-top: 6px;
-
 }
 
 .screen #content .my-groups .box .upper{
