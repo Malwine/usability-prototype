@@ -57,7 +57,7 @@ body {
   width: 95%;
   height: 25px;
   border-radius: 5px;
-  border: solid gray 1px;
+  border: solid #666666 1px;
   padding: 5px;
 }
 
@@ -88,30 +88,31 @@ body {
 
 .screen #content .groups-headline {
   font-size: 12px;
-  color: gray;
-  font-weight: 100;
+  font-weight: 600;
+  color: #595959;
   padding-top: 5px;
+  padding-bottom: 10px;
+
+}
+
+.screen #content #my-groups-headline{
+  color: #9C27B0;
+
 }
 
 .screen #content .my-groups {
-  overflow: scroll;
-  height: 140px;
+  overflow-x: scroll;
+  height: 150px;
   margin-top: 6px;
+
 }
 
-.screen #content .jana-my-groups {
-	height: 60px;
-	background-color: #EDEDED;
-	margin: 3px;
-	border-radius:3px;
-	font-size:17px;
-		
-	
+.screen #content .my-groups .box .upper{
+  background-color: #ffc14d;
 }
-
 .screen #content .all-groups {
-  overflow: scroll;
-  height: 140px;
+  overflow-x: scroll;
+  height: 150px;
   margin-top: 6px;
 }
 
@@ -134,13 +135,6 @@ body {
   border-radius: 3px;
 }
 
-.screen #content .add-groups-box {
-	background-color:#EDEDED;
-	color:#9535BE;
-	margin: 10px;
-	text-align: center;
-	text-decoration:none;
-	}
 .screen #content .box .group-title {
   color: white;
   padding-left: 5px;
@@ -184,17 +178,18 @@ body {
 .top {
   position: fixed;
   width: 291px;
-  background-color: white;
+  color: #595959;
+  background-color: #f2f2f2;
   height: 50px;
   margin-top: -1px;
   text-align: center;
-  border-bottom: solid gray 1px;
+  box-shadow: 0 0px 4px #bfbfbf;
   display: flex;
   flex-direction: row;
+  z-index: 1000;
 }
 
 .top #new {
-  border-right: solid gray 1px;
   height: 50px;
   font-size: 37px;
   flex: 1 0 0;
@@ -203,10 +198,8 @@ body {
 }
 
 .top #headline {
-  border-right: solid gray 1px;
   height: 50px;
   flex: 2 0 0;
-  color: #9C27B0;
 }
 
 .top #search {
@@ -216,16 +209,25 @@ body {
   color: black;
 }
 
+.top #edit {
+  height: 50px;
+  flex: 1 0 0;
+  text-decoration: none;
+  color: black;
+}
+
 .bottom {
   position: fixed;
   width: 291px;
-  background-color: white;
+  color: #666666;
+  background-color: #f2f2f2;
   height: 50px;
   margin-top: 408px;
   text-align: center;
-  border-top: solid gray 1px;
+  box-shadow: 0 0px 4px #bfbfbf;
   display: flex;
   flex-direction: row;
+  z-index: 1000;
 }
 
 .bottom .text {
@@ -234,11 +236,10 @@ body {
 }
 
 #all-groups {
-  border-right: solid gray 1px;
   height: 50px;
   flex: 1 0 0;
   text-decoration: none;
-  color: black;
+  color: #595959;
   cursor: pointer;
 }
 
@@ -247,12 +248,41 @@ body {
   padding-top: 4px;
 }
 
+.fa-plus,
+.fa-search,
+.fa-edit,
+.fa-chevron-left {
+    font-size: x-large;
+    color: #F27935;
+    text-shadow: 0px 0px 1px #cccccc;
+}
+
+.fa-envelope-o {
+    font-size: x-large;
+    color: #9C27B0;
+}
+
+.fa-users,
+.fa-user,
+.fa-calendar {
+    font-size: 27px;
+    padding: 5px;
+    text-shadow: 0px 0px 1px #cccccc;
+}
+
+.fa-users.active,
+.fa-calendar.active,
+.fa-user.active,
+.text.active {
+    color: #9C27B0;
+    text-shadow: 0px 0px 1px #cccccc;
+}
+
 #calendar {
-  border-right: solid gray 1px;
   height: 50px;
   flex: 1 0 0;
   text-decoration: none;
-  color: black;
+  color: #595959;
   cursor: pointer;
 }
 
@@ -265,7 +295,7 @@ body {
   height: 50px;
   flex: 1 0 0;
   text-decoration: none;
-  color: black;
+  color: #595959;
   cursor: pointer;
 }
 
@@ -278,39 +308,43 @@ body {
 .top #back {
   text-decoration: none;
   width: 80px;
-  border-right: solid gray 1px;
   color: black;
 }
 
 /* Account CSS */
 
+.account .top #back {
+  height: 50px;
+  flex: 1 0 0;
+  text-decoration: none;
+  color: black;
+}
+
 .account #user-data {
   text-align: center;
-  display: inline;
 }
 
 .account #avatar {
-  margin-top: 5px;
-  margin-left:30px;
-  width: 80px;
+  width: 70px;
   border-radius: 50%;
 }
 
-.account #username {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left:15px;
+.account #user-full-name {
   font-size: 20px;
+}
+
+.account #username {
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: #9C27B0;
 }
 
 .account .button {
   width: 91%;
-  border: none;
-  color: white;
-  background-color: #9C27B0;
+  color: #9C27B0;
+  border: solid #9C27B0 2px;
   font-size: 15px;
   cursor: pointer;
-  margin-bottom: 10px;
   display: inline-block;
   padding: 10px;
   border-radius: 4px;
@@ -318,9 +352,34 @@ body {
   text-align: center;
 }
 
-.account .button:last-child {
-  margin-bottom: 60px;
+/* New Group CSS */
+.large-button {
+  width: 91%;
+  color: white;
+  background-color: #9C27B0;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 10px;
 }
+
+/* Construction CSS */
+
+.construction img {
+  width: 150px;
+  display: block;
+  margin-top: 20px;
+  margin-left: 72px;
+}
+
+.construction p {
+  text-align: center;
+}
+
 
 /* Group 1 CSS */
 .group1 #groupname {
@@ -373,17 +432,31 @@ body {
 .group1 .member {
   margin-right: 10px;
 }
-.group1 #du{
-	margin-left: 15px;
-}
 
 .group1 .members .member img {
   width: 50px;
   border-radius: 50%;
 }
 
+.group1 .member .name {
+  text-align: center;
+}
+
+.group1 #myself {
+  color: #9C27B0;
+  display: none;
+}
+
+.group1 .contact {
+  margin-right: 10px;
+  border: solid #9C27B0 2px;
+  border-radius: 4px;
+  padding: 8px 34px 8px 36px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .group1 .button {
-  width: 91%;
   border: none;
   color: white;
   background-color: #9C27B0;
@@ -391,20 +464,60 @@ body {
   cursor: pointer;
   margin-bottom: 10px;
   display: inline-block;
-  padding: 10px;
-  border-radius: 4px;
+  padding: 12px 35px 12px 35px;
   text-decoration: none;
+  text-align: center;
+  border-radius: 4px;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 200px;
+    height: 250px;
+    top: 200px;
+    left: 100px;
+    background-color: rgba(156, 39, 176, 0.81);
+    z-index: 2;
+    border-radius: 4px;
+}
+
+#overlay #close {
+  color: white;
+  font-size: 30px;
+  padding-left: 175px;
+  width: 20px;
+  height: 14px;
+  cursor: pointer;
+}
+
+#overlay #image {
+  width: 100px;
+  padding-left: 50px;
+  padding-top: 14px;
+}
+
+#overlay #join-text {
+  padding-top: 16px;
+  padding-left: 20px;
+  width: 80%;
+  font-size: 20px;
+  color: white;
   text-align: center;
 }
 
-.group1 #administrator {
-	color: #9C27B0;
-	font-size: 10px;
-	margin-left:80px;
-	margin-top: 15px;
-}
+.screen #content .jana-my-groups {
+ 	height: 60px;
+ 	background-color: #EDEDED;
+ 	margin: 3px;
+ 	border-radius:3px;
+ 	font-size:17px;
+ }
 
-.group1 #work_in_progress {
-	margin-top:30px;
-	margin-left:30px;
-}
+.screen #content .add-groups-box {
+	background-color:#EDEDED;
+	color:#9535BE;
+	margin: 10px;
+	text-align: center;
+	text-decoration:none;
+ 	}

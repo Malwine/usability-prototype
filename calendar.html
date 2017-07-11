@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Team Up</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
@@ -10,26 +11,37 @@
       <div class="screen">
         <div class="top">
           <a id="back" href="all-groups.html">
-            <p>Zurück</p>
+            <p>
+              <i class="fa fa-chevron-left"></i>
+            </p>
+          </a>
+          <div id="headline">
+            <p>Kalender</p>
+          </div>
+          <a id="edit" href="construction.html">
           </a>
         </div>
+
         <div class="bottom">
-          <a id="all-groups" href="all-groups.html">
-            <img class="icon" src="./images/group-icon.jpg" alt="">
-            <div class="text">Groups</div>
-          </a>
-          <a id="calendar" href="calendar.html">
-            <img class="icon" src="./images/calendar.png" alt="">
-            <div class="text">Kalender</div>
-          </a>
-          <a id="account" href="account.html">
-            <img class="icon" src="./images/person-icon.png" alt="">
-            <div class="text">Account</div>
-          </a>
+            <a id="all-groups" href="all-groups.html">
+                <i class="fa fa-users"></i>
+                <div class="text">Lerngruppen</div>
+            </a>
+            <a id="calendar" href="calendar.html">
+                <i class="fa fa-calendar active"></i>
+                <div class="text active">Kalender</div>
+            </a>
+            <a id="account" href="account.html">
+                <i class="fa fa-user"></i>
+                <div class="text">Mein Profil</div>
+            </a>
         </div>
+
         <div id="content">
-        <div id="work_in_progress"><img src="images/work_in_progress.png" width=250px; /></div>
-          
+          <div class="construction">
+            <img src="./images/construction.png">
+            <p>In Arbeit</p>
+          </div>
         </div>
       </div>
     </div>
