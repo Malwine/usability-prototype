@@ -95,11 +95,6 @@ body {
 
 }
 
-.screen #content #my-groups-headline{
-  color: #9C27B0;
-
-}
-
 .screen #content .my-groups {
   overflow-x: scroll;
   height: 150px;
