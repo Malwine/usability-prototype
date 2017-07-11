@@ -328,6 +328,31 @@ body {
   color: black;
 }
 
+.new-group input {
+  padding: 10px;
+  width: 90%;
+  border-radius: 3px;
+  border: solid #f2f2f2 2px;
+  margin-bottom: 10px;
+}
+
+.new-group input:first-child {
+  margin-top: 10px;
+}
+
+.new-group ::-webkit-input-placeholder {
+  color: #bfbfbf;
+  font-size: 12px;
+}
+
+.new-group select {
+  width: 99%;
+  border-radius: 3px;
+  border: solid #f2f2f2 2px;
+  margin-bottom: 10px;
+  height: 38px;
+}
+
 /* Account CSS */
 
 .account .top #back {
