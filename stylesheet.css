@@ -110,6 +110,7 @@ body {
 .screen #content .my-groups .box .upper{
   background-color: #ffc14d;
 }
+
 .screen #content .all-groups {
   overflow-x: scroll;
   height: 150px;
@@ -529,7 +530,7 @@ body {
   width: 90%;
 }
 
-.screen #content .jana-my-groups {
+.screen #content .gray-box {
    height: 60px;
    background-color: #EDEDED;
    margin: 3px;
@@ -537,7 +538,7 @@ body {
    font-size:17px;
  }
 
-.screen #content .gray-box {
+.screen #content .gray-box div {
   background-color: #EDEDED;
   color: #9535BE;
   text-align: center;
