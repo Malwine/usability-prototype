@@ -124,7 +124,7 @@ body {
 }
 
 .screen #content .my-groups .box .upper{
-  background-color: #ffc14d;
+  background-color: #FFC107;
 }
 
 .screen #content .all-groups {
@@ -147,7 +147,7 @@ body {
 }
 
 .screen #content .box .upper {
-  background-color: orange;
+  background-color: #FF9800;
   height: 74px;
   border-radius: 3px;
 }
@@ -270,7 +270,7 @@ body {
 .fa-edit,
 .fa-chevron-left {
     font-size: x-large;
-    color: #F27935;
+    color: #FF9800;
     text-shadow: 0 0 1px #cccccc;
 }
 
