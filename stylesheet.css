@@ -353,6 +353,15 @@ body {
   height: 38px;
 }
 
+.ui-widget-content {
+  width: 200px !important;
+}
+
+#ui-datepicker-div {
+  top: 200px !important;
+  left: 100px !important;
+}
+
 /* Account CSS */
 
 .account .top #back {
