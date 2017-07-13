@@ -362,6 +362,27 @@ body {
   left: 100px !important;
 }
 
+.new-group .calendar { position: relative; }
+.calendar input { text-indent: 30px;}
+.calendar .fa-calendar {
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  font-size: 15px;
+}
+
+.new-group .time {
+  display: flex;
+}
+
+.new-group .time #time {
+  margin-left: 10px;
+}
+
+.calendar input {
+  width: inherit;
+}
+
 /* Account CSS */
 
 .account .top #back {
