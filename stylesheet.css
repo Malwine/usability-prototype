@@ -618,10 +618,10 @@ body {
 }
 
 /* Search View*/
-.autocomplete-suggestions { border: 1px solid #999; background: #fff; cursor: default; overflow: auto; font-size: 1em; }
-.autocomplete-suggestion { padding: 5px 5px; font-size: 1em; white-space: nowrap; overflow: hidden; }
+.autocomplete-suggestions { border: 1px solid #999; background: #fff; cursor: default; overflow: auto; font-size: 13px; }
+.autocomplete-suggestion { padding: 5px 5px; font-size: 13px; white-space: nowrap; overflow: hidden; }
 .autocomplete-selected { background: #f0f0f0; }
-.autocomplete-suggestions strong { font-size: 1em; font-weight: normal; color: #3399ff; }
+.autocomplete-suggestions strong { font-size: 13px; font-weight: normal; color: #3399ff; }
 
 #searchfield form {
   display: inline-block;
@@ -639,11 +639,16 @@ body {
   border-radius: 3px;
   color: #aeaeae;
   font-weight:normal;
-  font-size: 1em;
+  font-size: 13px;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 #searchfield form .biginput:focus {
   color: #858585;
+}
+
+.biginput ::-webkit-input-placeholder {
+  color: #7d7d7d;
+  font-size: 12px;
 }
