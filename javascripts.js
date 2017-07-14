@@ -12,7 +12,7 @@ function join() {
 
     setTimeout(function(){
       close();
-    }, 2000);
+    }, 3000);
 
   } else {
     button.innerHTML = "Mitmachen";
