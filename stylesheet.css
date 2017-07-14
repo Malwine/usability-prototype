@@ -166,20 +166,41 @@ body {
   padding-top: 5px;
 }
 
+.screen #content .box .attending {
+  padding-top: 34px;
+  padding-left: 115px;
+}
+
 .screen #content .box .attending img {
   width: 13px;
   position: relative;
-  top: 38px;
-  left: 115px;
+  top: 1px;
 }
 
 .screen #content .box .attending .number-attendees {
-  position: relative;
-  top: 37px;
-  left: 115px;
   color: white;
   font-size: 16px;
 }
+
+.screen #content .box .voll {
+  padding-top: 34px;
+  padding-left: 80px;
+}
+
+.screen #content .box .attending #voll {
+  color: #FFC107;
+  font-size: 16px;
+  background-color: white;
+  padding: 0px 2px 0px 2px;
+  border-radius: 3px;
+}
+
+.screen #content .box .voll img {
+  width: 13px;
+  position: relative;
+  top: 1px;
+}
+
 
 .screen #content .box .below {
   font-size: 10px;
