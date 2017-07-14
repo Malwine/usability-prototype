@@ -401,6 +401,7 @@ body {
 
 .account #user-data {
   text-align: center;
+  padding-top: 4px;
 }
 
 .account #avatar {
@@ -413,7 +414,6 @@ body {
 }
 
 .account #username {
-  margin-bottom: 10px;
   font-size: 13px;
   color: #9C27B0;
 }
