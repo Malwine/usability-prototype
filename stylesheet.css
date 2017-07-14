@@ -114,6 +114,13 @@ body {
   font-weight: 600;
   color: #595959;
   padding-top: 5px;
+}
+
+.screen #content .headline {
+  font-size: 15px;
+  font-weight: 600;
+  color: #595959;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
@@ -129,7 +136,7 @@ body {
 
 .screen #content .all-groups {
   overflow-x: scroll;
-  height: 150px;
+  height: 145px;
   margin-top: 6px;
 }
 
@@ -138,7 +145,7 @@ body {
 }
 
 .screen #content .box {
-  width: 140px;
+  width: 150px;
   height: 100px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -148,7 +155,7 @@ body {
 
 .screen #content .box .upper {
   background-color: #FF9800;
-  height: 74px;
+  height: 80px;
   border-radius: 3px;
 }
 
@@ -159,20 +166,46 @@ body {
   padding-top: 5px;
 }
 
+.screen #content .box .attending {
+  padding-top: 34px;
+  padding-left: 115px;
+}
+
 .screen #content .box .attending img {
   width: 13px;
   position: relative;
-  top: 33px;
-  left: 107px;
+  top: 1px;
 }
 
 .screen #content .box .attending .number-attendees {
-  position: relative;
-  top: 32px;
-  left: 106px;
   color: white;
   font-size: 16px;
 }
+
+.screen #content .box .attending .fa-user {
+  font-size: 17px !important;
+  padding: 0px !important;
+}
+
+.screen #content .box .voll {
+  padding-top: 34px;
+  padding-left: 80px;
+}
+
+.screen #content .box .attending #voll {
+  color: #FFC107;
+  font-size: 16px;
+  background-color: white;
+  padding: 0px 2px 0px 2px;
+  border-radius: 3px;
+}
+
+.screen #content .box .voll img {
+  width: 13px;
+  position: relative;
+  top: 1px;
+}
+
 
 .screen #content .box .below {
   font-size: 10px;
@@ -394,6 +427,7 @@ body {
 
 .account #user-data {
   text-align: center;
+  padding-top: 4px;
 }
 
 .account #avatar {
@@ -406,7 +440,6 @@ body {
 }
 
 .account #username {
-  margin-bottom: 10px;
   font-size: 13px;
   color: #9C27B0;
 }
@@ -604,9 +637,6 @@ body {
 .screen #content .gray-box {
    height: 60px;
    background-color: #EDEDED;
-   margin: 3px;
-   border-radius:3px;
-   font-size:17px;
  }
 
 .screen #content .gray-box div {
@@ -614,14 +644,35 @@ body {
   color: #9535BE;
   text-align: center;
   text-decoration: none;
-  padding: 18px;
+  padding: 22px;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 /* Search View*/
-.autocomplete-suggestions { border: 1px solid #999; background: #fff; cursor: default; overflow: auto; font-size: 13px; }
-.autocomplete-suggestion { padding: 5px 5px; font-size: 13px; white-space: nowrap; overflow: hidden; }
-.autocomplete-selected { background: #f0f0f0; }
-.autocomplete-suggestions strong { font-size: 13px; font-weight: normal; color: #3399ff; }
+.autocomplete-suggestions {
+  border: 1px solid #999;
+  background: #fff; cursor:
+  default; overflow: auto;
+  font-size: 1em;
+}
+
+.autocomplete-suggestion {
+  padding: 5px 5px;
+  font-size: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.autocomplete-selected {
+  background: #f0f0f0;
+}
+
+.autocomplete-suggestions strong {
+  font-size: 1em;
+  font-weight: normal;
+  color: #3399ff;
+}
 
 #searchfield form {
   display: inline-block;
