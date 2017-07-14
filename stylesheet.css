@@ -114,6 +114,13 @@ body {
   font-weight: 600;
   color: #595959;
   padding-top: 5px;
+}
+
+.screen #content .headline {
+  font-size: 15px;
+  font-weight: 600;
+  color: #595959;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
@@ -129,7 +136,7 @@ body {
 
 .screen #content .all-groups {
   overflow-x: scroll;
-  height: 150px;
+  height: 145px;
   margin-top: 6px;
 }
 
@@ -138,7 +145,7 @@ body {
 }
 
 .screen #content .box {
-  width: 140px;
+  width: 150px;
   height: 100px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -148,7 +155,7 @@ body {
 
 .screen #content .box .upper {
   background-color: orange;
-  height: 74px;
+  height: 80px;
   border-radius: 3px;
 }
 
@@ -162,14 +169,14 @@ body {
 .screen #content .box .attending img {
   width: 13px;
   position: relative;
-  top: 33px;
-  left: 107px;
+  top: 38px;
+  left: 115px;
 }
 
 .screen #content .box .attending .number-attendees {
   position: relative;
-  top: 32px;
-  left: 106px;
+  top: 37px;
+  left: 115px;
   color: white;
   font-size: 16px;
 }
@@ -604,9 +611,6 @@ body {
 .screen #content .gray-box {
    height: 60px;
    background-color: #EDEDED;
-   margin: 3px;
-   border-radius:3px;
-   font-size:17px;
  }
 
 .screen #content .gray-box div {
@@ -614,14 +618,35 @@ body {
   color: #9535BE;
   text-align: center;
   text-decoration: none;
-  padding: 18px;
+  padding: 22px;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 /* Search View*/
-.autocomplete-suggestions { border: 1px solid #999; background: #fff; cursor: default; overflow: auto; font-size: 1em; }
-.autocomplete-suggestion { padding: 5px 5px; font-size: 1em; white-space: nowrap; overflow: hidden; }
-.autocomplete-selected { background: #f0f0f0; }
-.autocomplete-suggestions strong { font-size: 1em; font-weight: normal; color: #3399ff; }
+.autocomplete-suggestions {
+  border: 1px solid #999;
+  background: #fff; cursor:
+  default; overflow: auto;
+  font-size: 1em;
+}
+
+.autocomplete-suggestion {
+  padding: 5px 5px;
+  font-size: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.autocomplete-selected {
+  background: #f0f0f0;
+}
+
+.autocomplete-suggestions strong {
+  font-size: 1em;
+  font-weight: normal;
+  color: #3399ff;
+}
 
 #searchfield form {
   display: inline-block;
