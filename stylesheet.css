@@ -412,6 +412,15 @@ body {
   margin-left: 10px;
 }
 
+.new-group .row {
+  display: flex;
+}
+
+.new-group .row #anzahl {
+  flex: 1 1 78%;
+  margin-left: 10px;
+}
+
 .calendar input {
   width: inherit;
 }
