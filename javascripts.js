@@ -9,10 +9,11 @@ function join() {
     button.innerHTML = "Austreten";
     document.getElementById("myself").style.display = "block";
     document.getElementById("overlay").style.display = "block";
+    document.getElementById("counter").innerHTML = 4;
 
     setTimeout(function(){
       close();
-    }, 3000);
+    }, 5500);
 
   } else {
     button.innerHTML = "Mitmachen";
