@@ -578,6 +578,11 @@ body {
   display: none;
 }
 
+.group1 #myself.show {
+  color: #9C27B0;
+  display: block;
+}
+
 .group1 #myself-admin {
   color: #9C27B0;
 }
